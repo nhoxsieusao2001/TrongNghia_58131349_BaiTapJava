@@ -21,7 +21,8 @@ public class TrongNghia_58131349_BaiTapJava {
         // TODO code application logic here
         ICalculate calculator = new CasioCalculator();
         System.out.println("7+8="+ calculator.cong(7,8));
-        //System.out.println("9x3="+ calcutator.nhan(9,3));
+        System.out.println("9x3="+ calculator.nhan(9,3));
+        System.out.println("9:3="+ calculator.chia(9,3));
         }
     
 }
